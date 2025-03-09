@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/profile-card-component/",
-  plugins: [react(), tailwindcss()],
-})
+  plugins: [tailwindcss(), react()],
+  base: "/profile-card-component/", // তোমার রিপোজিটরির নাম যোগ করো
+});
